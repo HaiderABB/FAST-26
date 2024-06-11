@@ -1,0 +1,14 @@
+E:\Programming\GUI Production\SRE_Proj\SRE_Proj\x64\Debug\SRE_Proj.vcxproj.AssemblyReference.cache
+E:\Programming\GUI Production\SRE_Proj\SRE_Proj\x64\Debug\SRE_Proj.vcxproj.SuggestedBindingRedirects.cache
+E:\Programming\GUI Production\SRE_Proj\SRE_Proj\x64\Debug\SREProj.Driver.resources
+E:\Programming\GUI Production\SRE_Proj\SRE_Proj\x64\Debug\SRE_Proj.vcxproj.GenerateResource.cache
+E:\Programming\GUI Production\SRE_Proj\SRE_Proj\x64\Debug\SREProj.UserMenu.resources
+E:\Programming\GUI Production\SRE_Proj\SRE_Proj\x64\Debug\SREProj.AddRestaurant.resources
+E:\Programming\GUI Production\SRE_Proj\SRE_Proj\x64\Debug\SREProj.AddUser.resources
+E:\Programming\GUI Production\SRE_Proj\SRE_Proj\x64\Debug\SREProj.PlaceOrder.resources
+E:\Programming\GUI Production\SRE_Proj\SRE_Proj\x64\Debug\SREProj.ViewDrivers.resources
+E:\Programming\GUI Production\SRE_Proj\SRE_Proj\x64\Debug\SREProj.ViewOrders.resources
+E:\Programming\GUI Production\SRE_Proj\SRE_Proj\x64\Debug\SREProj.ViewRestMenu.resources
+E:\Programming\GUI Production\SRE_Proj\SRE_Proj\x64\Debug\SREProj.RemoveRestaurant.resources
+E:\Programming\GUI Production\SRE_Proj\SRE_Proj\x64\Debug\SREProj.GenerateSlips.resources
+E:\Programming\GUI Production\SRE_Proj\SRE_Proj\x64\Debug\SREProj.View Users.resources

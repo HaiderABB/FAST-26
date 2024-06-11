@@ -1,0 +1,15 @@
+Orders:
+
+	Order No, Order Item, Money, Bool Discount, Extra Thing, User Name
+
+User:
+
+	Name, Phone Number, Address, Marked, Orders Done Till Now
+
+Restaurant:
+
+	Name, Phone Number, Address, Due, Menu
+
+Drivers:
+
+	Name, Phone Number, Address, Rides, Bool Available

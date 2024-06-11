@@ -1,0 +1,4 @@
+Flattis 04072805724 400 FaisalTown Pizza:Burger:Sandwich
+HolidayInn 0942374984 513 MCcLoadRoad Muffin:Karahi:Biryani
+NishatHotel 0934779234 299 MallRoad ChickenWings:Qourma:Pulao
+PCHotel 07278462492 1000 ShahraheQuaid CandyFloss:Sushi:Chauman

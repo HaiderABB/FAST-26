@@ -1,0 +1,164 @@
+------------------------------------------------ ORDERS ------------------------------------------------------------
+
+std::vector<std::string> Order_Name;
+		std::vector<std::string> Order_Money;
+		std::vector<std::string> Order_Discount;
+		std::vector<std::string> Order_AddOn;
+		std::vector<std::string> Order_CustomName;
+		std::ifstream io;
+		io.open("Orders.txt");
+		std::string r;
+		std::string r1;
+		while (!io.eof()) {
+			io >> r1;
+			
+			io >> r;
+			Order_Name.push_back(r);
+			io >> r;
+			Order_Money.push_back(r);
+			io >> r;
+			Order_Discount.push_back(r);
+			io >> r;
+			Order_AddOn.push_back(r);
+			io >> r;
+			Order_CustomName.push_back(r);
+		}
+		std::ofstream oi;
+		oi.open("Orders.txt");
+		std::string r2;
+		for (int i = 0; i < Order_Name.size();i++) {
+			oi << r1;
+			oi << " ";
+			oi << Order_Name[i];
+			oi << " ";
+			oi << Order_Money[i];
+			oi << " ";
+			oi << Order_Discount[i];
+			oi << " ";
+			oi << Order_AddOn[i];
+			oi << " ";
+			oi << Order_CustomName[i];
+			oi << "\n";
+		}
+		MessageBox::Show("Done!");
+
+------------------------------------------------ DRIVER ------------------------------------------------------------
+
+std::vector<std::string> Driver_Name;
+		std::vector<std::string> Driver_PhoneNumber;
+		std::vector<std::string> Driver_Address;
+		std::vector<std::string> Driver_Rides;
+		std::vector<std::string> Driver_Available;
+		std::ifstream io;
+		io.open("Drivers.txt");
+		std::string r;
+		while (!io.eof()) {
+			io >> r;
+			Driver_Name.push_back(r);
+			io >> r;
+			Driver_PhoneNumber.push_back(r);
+			io >> r;
+			Driver_Address.push_back(r);
+			io >> r;
+			Driver_Rides.push_back(r);
+			io >> r;
+			Driver_Available.push_back(r);
+		}
+		std::ofstream oi;
+		oi.open("Drivers.txt");
+		std::string r2;
+		for (int i = 0; i < Driver_Name.size();i++) {
+			oi << " ";
+			oi << Driver_Name[i];
+			oi << " ";
+			oi << Driver_PhoneNumber[i];
+			oi << " ";
+			oi << Driver_Address[i];
+			oi << " ";
+			oi << Driver_Rides[i];
+			oi << " ";
+			oi << Driver_Available[i];
+			oi << "\n";
+		}
+		MessageBox::Show("Done!");
+
+---------------------------------------------- RESTAURANT ----------------------------------------------------------
+
+std::vector<std::string> Restaurant_Name;
+		std::vector<std::string> Restaurant_PhoneNumber;
+		std::vector<std::string> Restaurant_Due;
+		std::vector<std::string> Restaurant_Address;
+		std::vector<std::string> Restaurant_Menu;
+		std::ifstream io;
+		io.open("Restaurant.txt");
+		std::string r;
+		while (!io.eof()) {
+			io >> r;
+			Restaurant_Name.push_back(r);
+			io >> r;
+			Restaurant_PhoneNumber.push_back(r);
+			io >> r;
+			Restaurant_Due.push_back(r);
+			io >> r;
+			Restaurant_Address.push_back(r);
+			io >> r;
+			Restaurant_Menu.push_back(r);
+		}
+		std::ofstream oi;
+		oi.open("Restaurant.txt");
+		std::string r2;
+		for (int i = 0; i < Restaurant_Name.size();i++) {
+			oi << Restaurant_Name[i];
+			oi << " ";
+			oi << Restaurant_PhoneNumber[i];
+			oi << " ";
+			oi << Restaurant_Due[i];
+			oi << " ";
+			oi << Restaurant_Address[i];
+			oi << " ";
+			oi << Restaurant_Menu[i];
+			oi << "\n";
+		}
+		MessageBox::Show("Done!");
+
+------------------------------------------------- USER -------------------------------------------------------------
+
+std::vector<std::string> User_Name;
+		std::vector<std::string> User_PhoneNumber;
+		std::vector<std::string> User_Address;
+		std::vector<std::string> User_Marked;
+		std::vector<std::string> User_Number;
+		std::ifstream io;
+		io.open("User.txt");
+		std::string r;
+		while (!io.eof()) {
+			io >> r;
+			User_Name.push_back(r);
+			io >> r;
+			User_PhoneNumber.push_back(r);
+			io >> r;
+			User_Address.push_back(r);
+			io >> r;
+			User_Marked.push_back(r);
+			io >> r;
+			User_Number.push_back(r);
+		}
+		std::ofstream oi;
+		oi.open("User.txt");
+		std::string r2;
+		for (int i = 0; i < User_Number.size();i++) {
+			oi << " ";
+			oi << User_Name[i];
+			oi << " ";
+			oi << User_PhoneNumber[i];
+			oi << " ";
+			oi << User_Address[i];
+			oi << " ";
+			oi << User_Marked[i];
+			oi << " ";
+			oi << User_Number[i];
+			oi << "\n";
+		}
+		MessageBox::Show("Done!");
+
+--------------------------------------------------------------------------------------------------------------------
